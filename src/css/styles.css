@@ -11,6 +11,8 @@ ul {
   padding: 0;
 }
 
+
+
 .form {
   display: flex;
   justify-content: center;
@@ -60,6 +62,7 @@ ul {
   justify-content: center;
   gap: 24px;
   padding-top: 32px;
+  margin-bottom: 32px;
 }
 
 .gallery-item {
@@ -120,7 +123,7 @@ ul {
   width: 48px;
   height: 48px;
   border: 5px solid #FFF;
-  border-bottom-color: #6c8cff;
+  border-bottom-color: #FF3D00;
   border-radius: 50%;
   display: none;
   animation: rotation 1s linear infinite;
@@ -133,6 +136,31 @@ ul {
   }
 
   100% {
-    transform: rotate(350deg);
+    transform: rotate(360deg);
   }
+}
+
+.load-button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.load-button:hover {
+  background: #6c8cff;
+}
+
+.hidden {
+  display: none;
 }
